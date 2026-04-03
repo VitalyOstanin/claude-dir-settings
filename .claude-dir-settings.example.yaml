@@ -1,0 +1,15 @@
+# Пример файла настроек Claude Code для каталога.
+# Скопируйте как .claude-dir-settings.yaml в корень проекта.
+# Wrapper найдёт его автоматически из любого подкаталога.
+
+# Цвет сессии (передаётся в TWEAKCC_SESSION_COLOR)
+color: yellow
+
+# Плагины, включаемые через --settings
+plugins:
+  - my-plugin@local
+  - project-mcp@marketplace
+
+# Переменные окружения, экспортируемые перед запуском
+env:
+  PROJECT_ENV: production
